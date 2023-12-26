@@ -80,7 +80,7 @@ const Map = () => {
           />
           {/* https://api.mapbox.com/styles/v1/manafabdul/clqmq60f100qn01o3g734fc27/wmts?access_token=pk.eyJ1IjoibWFuYWZhYmR1bCIsImEiOiJjbDBjYXhjajAwbjRxM2NvZGg4dmg1ejl2In0.ShuS_BGZQPwExl-HBVXFXQ
           mapbox://styles/manafabdul/clqmq60f100qn01o3g734fc27 */}
-          <Marker position={[position.lat, position.lng]} icon={userIcon}> */}
+          <Marker position={[position.lat, position.lng]} icon={userIcon}>
               <Circle
                   center={position}
                   radius={160.934}
